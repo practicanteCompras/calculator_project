@@ -23,9 +23,33 @@
     width: 480px;
     margin: 24px;
 }
-button{
+#buttons_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+    margin: 12px;
+
+}
+#buttons_area button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 48px;
     border: 2px solid;
     border-radius: 12px;
     border-color: black;
     background-color: aliceblue;
+}
+#calculate_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 64px;
+    margin: 12px;
+    border-radius: 12px;
+    background-color: aqua;
+
 }
